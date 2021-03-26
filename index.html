@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  stuff
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </head>
 <body>
-  stuff
+  <form id="theForm">
+    <h1>
+      <label for="sideA">1st side-length:</label>
+      <input id="sideA" class="triSide" type="text" value="3" required>
+    </h1>
+
+    <h1>
+      <label for="sideB">2nd side-length:</label>
+      <input id="sideB" class="triSide" type="text" value="4" required>
+    </h1>
+
+    <h1>
+      <label for="sideC">3rd side-length:</label>
+      <input id="sideC" class="triSide" type="text" value="5" required>
+    </h1>
+
+    <button type="submit">Magic</button>
+  </form>
 </body>
 </html>
